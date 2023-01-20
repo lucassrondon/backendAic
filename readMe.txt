@@ -28,6 +28,10 @@ Explicação dos endpoints referentes ao macroprocesso:
 				Em caso de sucesso retorna: {"status":201,"success":true,"mensagens":["Macroprocesso criado"],"data":{"id":"UMNUMERO","name":"AQUIVAIOTITULO","createdAt":"0000-00-00 00:00:00","editedAt":null}}
 				
 				Possíveis status de erro: 400 (algum erro no formato da requisição), 405 (método não permitido), 500 (erro do servidor)
+			
+			GET:
+				Em caso de sucesso retorna: {"status":200,"success":true,"mensagens":["Macroprocessos retornados"],"data": AQUI VAI UM ARRAY COM ARRAYS DE MARCROPROCESSOS}
+				Possíveis status de erro: 500 (erro do servidor)
 
 	localhost/backendAic/view/macroprocesso.php?id=AQUI VAI O ID DE UM MACROPROCESSO
 
