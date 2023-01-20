@@ -111,3 +111,4 @@ class MacroprocessoController extends MacroprocessoModel
         return self::getAllMacroprocessosInDatabase();
     }
 }
+
